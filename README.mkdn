@@ -6,7 +6,7 @@ familiar with [Git and Repo](http://source.android.com/source/version-control.ht
 Download your Source
 ----------------------
 
-    repo init -u git://github.com/HyperionROM/android.git -b kitkat
+    repo init -u http://github.com/HyperionROM/android.git -b kitkat
 
     repo sync
 
