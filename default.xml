@@ -35,13 +35,13 @@
   </project>
   <project path="android" name="android" remote="ls" revision="kitkat" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="android_art" remote="hr" revision="kitkat"  />
-  <project path="bionic" name="android_bionic" remote="sr" revision="kk4.4" />
+  <project path="art" name="android_art" remote="ls" revision="kitkat"  />
+  <project path="bionic" name="android_bionic" remote="ls" revision="kitkat" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="bootable_recovery" remote="hr" revision="kitkat" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="android_dalvik" remote="sr" revision="kk4.4" />
+  <project path="dalvik" name="android_dalvik" remote="ls" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -106,15 +106,15 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="android_external_clang" remote="sr" revision="kk4.4"  />
+  <project path="external/clang" name="android_external_clang" remote="ls" revision="kitkat"  />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="ls" revision="kitkat"  />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="sr" revision="kk4.4"  />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="ls" revision="kitkat" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -211,7 +211,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" remote="ln" revision="linaro_android_4.4.2" />
   <project path="external/openssl" name="platform/external/openssl" remote="ln" revision="linaro_android_4.4.2" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/oprofile" name="android_external_oprofile" remote="ls" revision="kitkat"  />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
@@ -227,7 +227,7 @@
   <project path="external/sepolicy" name="android_external_sepolicy" remote="sr" revision="kk4.4" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="android_external_skia" remote="sr" revision="kk4.4" />
+  <project path="external/skia" name="android_external_skia" remote="ls" revision="kitkat" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" remote="ln" revision="linaro_android_4.4.2" />
@@ -249,7 +249,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" remote="ln" revision="linaro_android_4.4.2" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
-  <project path="external/webp" name="platform/external/webp" />
+  <project path="external/webp" name="android_external_webp" remote="ls" revision="kitkat"  />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="sr" revision="kk4.4-caf" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-11.0" />
@@ -258,7 +258,7 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="sr" revision="kk4.4" />
   <project path="external/zlib" name="android_external_zlib" remote="sr" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="frameworks_av" remote="hr" revision="kitkat" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="ls" revision="kitkat" />
   <project path="frameworks/base" name="frameworks_base" remote="hr" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="sr" revision="kk4.4" />
@@ -266,7 +266,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" remote="ln" revision="linaro_android_4.4.2" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="frameworks_native" remote="hr" revision="kitkat" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="ls" revision="kitkat" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -280,7 +280,7 @@
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="sr" revision="kk4.4" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ls" revision="kitkat" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="sr" revision="kk4.4" />
-  <project path="frameworks/rs" name="frameworks_rs" remote="sr" revision="kk4.4" groups="pdk" />
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="ls" revision="kitkat" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
@@ -315,7 +315,7 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="ls" revision="kitkat" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
-  <project path="libcore" name="platform_libcore" remote="sr" revision="kk4.4" />
+  <project path="libcore" name="android_libcore" remote="ls" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-11.0" />
@@ -409,9 +409,11 @@
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
@@ -431,8 +433,9 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="android_system_core" remote="hr" revision="kitkat" />
   <project path="system/extras" name="android_system_extras" remote="sr" revision="kk4.4" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/media" name="ValidusAOSP/system_media" remote="gh" revision="vaosp" />
   <project path="system/netd" name="android_system_netd" remote="sr" revision="kk4.4" />
+  <project path="system/qcom" name="android_system_qcom" remote="ls" revision="kitkat" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="sr" revision="kk4.4" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
