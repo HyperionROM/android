@@ -332,7 +332,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="kk4.4" />
   <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="hr" revision="kitkat" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="sr" revision="kk4.4" />
   <project path="packages/apps/SlimFileManager" name="packages_apps_SlimFileManager" remote="sr" revision="kk4.4" />
