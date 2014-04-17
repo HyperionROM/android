@@ -30,10 +30,10 @@
 		   sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="hr" revision="linaro" >
+  <project path="build" name="android_build" remote="hr" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="android" remote="hr" revision="linaro" />
+  <project path="android" name="android" remote="hr" revision="kitkat" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="ls" revision="kitkat"  />
   <project path="bionic" name="android_bionic" remote="hr" revision="kitkat" />
